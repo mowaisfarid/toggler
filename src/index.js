@@ -1,17 +1,28 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
-import App from './App';
-import reportWebVitals from './reportWebVitals';
+
+function Room() {
+  const [value, setvalue] = React.useState(true)
+
+  function cllik() {
+    setvalue((preVal) => !preVal);
+// gfdgfdgfdgfdg
+  }
+  return (
+    <div className={(value === true) ? "dark" : "light"}>
+
+      <div>
+        The bulb is {(value === true) ? "Bright" : "Dark"}
+      </div>
+        <button onClick={cllik}>toggle</button>
+
+    </div>
+  )
+
+}
 
 ReactDOM.render(
-  <React.StrictMode>
-    <App />
-  </React.StrictMode>,
-  document.getElementById('root')
-);
-
-// If you want to start measuring performance in your app, pass a function
-// to log results (for example: reportWebVitals(console.log))
-// or send to an analytics endpoint. Learn more: https://bit.ly/CRA-vitals
-reportWebVitals();
+  <Room />,
+  document.querySelector('#root')
+)
