@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/toggler/static/css/main.03fbbfcb.chunk.css",
+    "main.js": "/toggler/static/js/main.bf34bb68.chunk.js",
+    "main.js.map": "/toggler/static/js/main.bf34bb68.chunk.js.map",
+    "runtime-main.js": "/toggler/static/js/runtime-main.9904dd88.js",
+    "runtime-main.js.map": "/toggler/static/js/runtime-main.9904dd88.js.map",
+    "static/js/2.c28f119a.chunk.js": "/toggler/static/js/2.c28f119a.chunk.js",
+    "static/js/2.c28f119a.chunk.js.map": "/toggler/static/js/2.c28f119a.chunk.js.map",
+    "index.html": "/toggler/index.html",
+    "static/css/main.03fbbfcb.chunk.css.map": "/toggler/static/css/main.03fbbfcb.chunk.css.map",
+    "static/js/2.c28f119a.chunk.js.LICENSE.txt": "/toggler/static/js/2.c28f119a.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.9904dd88.js",
+    "static/js/2.c28f119a.chunk.js",
+    "static/css/main.03fbbfcb.chunk.css",
+    "static/js/main.bf34bb68.chunk.js"
+  ]
+}
